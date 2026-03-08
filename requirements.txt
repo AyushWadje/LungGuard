@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic
+scikit-learn
+numpy
+pandas
+joblib
+aiohttp
+nest-asyncio
+requests
+python-dotenv
+# FIX 1.1 — JWT authentication
+python-jose[cryptography]
+bcrypt>=3.2

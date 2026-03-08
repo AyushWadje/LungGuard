@@ -1,0 +1,168 @@
+Starting Vite dev server... 
+
+> aerolung-dashboard@0.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m2425[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m2:11:30 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:11:30 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/context/AuthContext.tsx[22m
+[2m2:11:30 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:11:31 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/context/AuthContext.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m2:11:31 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/App.tsx, /@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/components/Layout.tsx, /@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/components/ProtectedRoute.tsx, /@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/Login.tsx[22m
+[2m2:14:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:14:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/Dashboard.tsx[22m
+[2m2:14:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:14:12 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\src\pages\Dashboard.tsx: Unterminated string constant. (465:42)
+
+[0m [90m 463 |[31m                                 type[33m=[31m[32m"submit"[31m
+ [90m 464 |[31m                                 disabled[33m=[31m{isPredicting}
+[31m[1m>[22m[31m[90m 465 |[31m                                 className[33m=[31m[32m"w-full bg[31m
+ [90m     |[31m                                           [31m[1m^[22m[31m
+ [90m 466 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/Dashboard.tsx[39m:465:42
+[33m  463 |                                  type="submit"
+  464 |                                  disabled={isPredicting}
+  465 |                                  className="w-full bg
+      |                                            ^
+  466 |  [39m
+      at constructor (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.jsxReadString (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4503:20)
+      at TypeScriptParserMixin.getTokenFromCode (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4788:14)
+      at TypeScriptParserMixin.getTokenFromCode (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9987:11)
+      at TypeScriptParserMixin.nextToken (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:5782:10)
+      at TypeScriptParserMixin.next (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:5692:10)
+      at TypeScriptParserMixin.eat (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:5696:12)
+      at TypeScriptParserMixin.jsxParseAttribute (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4653:23)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4667:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10043:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4662:17)
+      at TypeScriptParserMixin.jsxParseElementAt (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4686:33)
+      at TypeScriptParserMixin.jsxParseElementAt (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElement (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10831:21)
+      at c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9775:18)
+      at c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10784:23)
+      at c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:12421:16)
+[2m2:16:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:16:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/Dashboard.tsx[22m
+[2m2:16:00 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\src\pages\Dashboard.tsx: Unterminated string constant. (492:41)
+
+[0m [90m 490 |[31m                                 [33m<[31m[33mspan[31m className[33m=[31m[32m"material-symbols-outlined text-sm"[31m[33m>[31mclose[33m<[31m[33m/[31m[33mspan[31m[33m>[31m
+ [90m 491 |[31m                             [33m<[31m[33m/[31m[33mbutton[31m[33m>[31m
+[31m[1m>[22m[31m[90m 492 |[31m                             [33m<[31m[33mp[31m className[33m=[31m[32m"[31m
+ [90m     |[31m                                          [31m[1m^[22m[31m
+ [90m 493 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/Dashboard.tsx[39m:492:41
+[33m  490 |                                  <span className="material-symbols-outlined text-sm">close</span>
+  491 |                              </button>
+  492 |                              <p className="
+      |                                           ^
+  493 |  [39m
+      at constructor (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.jsxReadString (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4503:20)
+      at TypeScriptParserMixin.getTokenFromCode (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4788:14)
+      at TypeScriptParserMixin.getTokenFromCode (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9987:11)
+      at TypeScriptParserMixin.nextToken (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:5782:10)
+      at TypeScriptParserMixin.next (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:5692:10)
+      at TypeScriptParserMixin.eat (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:5696:12)
+      at TypeScriptParserMixin.jsxParseAttribute (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4653:23)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4667:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10043:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4662:17)
+      at TypeScriptParserMixin.jsxParseElementAt (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4686:33)
+      at TypeScriptParserMixin.jsxParseElementAt (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElement (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10831:21)
+      at c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9775:18)
+      at c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOpBaseRightExpr (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10986:34)
+      at TypeScriptParserMixin.parseExprOpRightExpr (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10981:21)
+      at TypeScriptParserMixin.parseExprOp (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10947:27)
+      at TypeScriptParserMixin.parseExprOp (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9306:18)
+      at TypeScriptParserMixin.parseExprOps (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10908:17)
+      at TypeScriptParserMixin.parseMaybeConditional (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10784:23)
+      at c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (c:\Users\wadje\Downloads\PIH-2026_SYNTAX_GLITCH-main\aerolung-dashboard\node_modules\@babel\parser\lib\index.js:12426:12)
+[2m2:16:17 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:16:17 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/Dashboard.tsx[22m
+[2m2:16:36 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:16:36 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/Dashboard.tsx[22m
+[2m2:18:08 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:18:08 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/Alerts.tsx[22m
+[2m2:18:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:18:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/Analytics.tsx[22m
+[2m2:19:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:19:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/AirQualityMap.tsx[22m
+[2m2:20:48 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:20:48 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/AirQualityMap.tsx[22m
+[2m2:21:59 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:21:59 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/Settings.tsx[22m
+[2m2:22:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:22:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/components/Layout.tsx[22m
+[2m2:23:24 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/index.css[22m
+[2m2:23:24 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/wadje/Downloads/PIH-2026_SYNTAX_GLITCH-main/aerolung-dashboard/src/pages/PopulationHealth.tsx[22m
+^C

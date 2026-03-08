@@ -1,0 +1,37 @@
+# Exclude stitch_screens (user requested)
+stitch_screens/
+
+# Node.js
+node_modules/
+dist/
+build/
+.vite/
+*.log
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+.env
+.env.local
+venv/
+*.egg-info/
+
+# ML model archives (use Git LFS for large binaries)
+ml_models.zip
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local Netlify folder
+.netlify

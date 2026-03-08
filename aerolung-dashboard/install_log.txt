@@ -1,0 +1,10 @@
+Starting npm install... 
+
+added 311 packages, and audited 312 packages in 18s
+
+69 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+EXIT_CODE=0 
+DONE 
