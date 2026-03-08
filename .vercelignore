@@ -1,0 +1,67 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Virtual environments
+venv
+env
+ENV
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# ML Models (already in repo, don't rebuild)
+ML_model/raw_*.csv
+ML_model/cleaned_*.csv
+
+# Logs
+*.log
+dev_log.txt
+install_log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+.github
+
+# Documentation (not needed for runtime)
+README.md
+DEPLOYMENT.md
+CONTRIBUTING.md
+TODO.md
+API_DOCS.md
+
+# Development files
+.env
+.env.local
+.env.development
+
+# Backend files (not needed for frontend deployment)
+Pipeline/
+aerolung/
+plsi_engine.py
+requirements_ml.txt
+railway.json
+render.yaml
+Procfile
+runtime.txt
+
+# Test files
+tests/
+*.test.js
+*.spec.ts
